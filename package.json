@@ -1,0 +1,23 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "download-git-repo": "^2.0.0",
+    "handlebar": "^1.0.0",
+    "inquirer": "^6.5.0"
+  },
+  "author": "{{ author }}",
+  "license": "ISC",
+  "bin": {
+    "lxpstart": "index.js"
+  }
+}
